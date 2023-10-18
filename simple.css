@@ -1,0 +1,98 @@
+.one {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:aliceblue;
+}
+
+.one li {
+  float: right;
+}
+
+.one li a {
+  display: block;
+  color:blue;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.one li a:hover {
+  background-color: #111;
+}
+.two {
+  text-align: center;
+}
+
+.two img {
+  width: 30%;
+  text-align: right;
+  margin-left: -1000px;
+  border-radius: 40px;
+}
+
+.two h1 {
+  font-size: 100px;
+  text-align: right;
+  margin-top: -300px;
+  margin-right:600px;
+  color:cornflowerblue
+}
+
+.two p {
+  font-size: 18px;
+  text-align: right;
+  margin-right: -3px;
+  margin-top: -63px;
+  padding-left: 535px;
+  padding-top: 40px;
+  position:fixed;
+  background-attachment: scroll;
+}
+.seven{
+  width: 140px;
+  height: 54px;
+  float: right;
+  margin-top: -24px;
+  margin-right: 80px;
+  background-color: chartreuse;
+}
+.three{
+  width: 500px;
+  size: 40px;
+  float: left;
+  margin-top: -60px;
+}
+.three button{
+  width: 200px;
+  height: 50px;
+  background-color: blue;
+  border-radius: 40px;
+}
+.seth{
+  float:right;
+  width: 140px;
+  margin-right: 35px;
+  margin-top: -24px;
+  height: 54px;
+  background-color: chartreuse;
+}
+article{
+  font-size:large;
+  padding-left:18% ;
+
+
+
+}
+aside{
+  font-size: large;
+  padding-left: 21%;
+  
+  }
+  section{
+    font-size: larger;
+    padding-left: 22%;
+    
+  }
