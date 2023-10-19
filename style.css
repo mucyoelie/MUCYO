@@ -2,6 +2,7 @@ ul, li {
     margin: 0;
     padding: 0;
     list-style: none;
+    align-items: center;
 }
 
 
@@ -11,11 +12,15 @@ header {
 }
 
 nav {
-    text-align: center;   
+    text-align: left;
+    margin-left: 400px;
+    margin-right: 400px;
+    
 }
 .nav-menu {
     display: flex;
     justify-content: center;
+    margin: 0px;
 }
 
 .nav-menu li {
@@ -29,6 +34,8 @@ nav {
     font-weight: bold;
     font-size: 16px; 
     transition: color 0.3s ease;
+    margin: 0%;
+    padding: 0%;
 }
 
 .nav-menu a:hover {
@@ -70,4 +77,7 @@ nav {
     font-size: xx-large;
     margin-left: 3%;
     color: blue;
+  }
+  body{
+    margin: 0px;
   }
