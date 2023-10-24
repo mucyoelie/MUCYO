@@ -14,10 +14,12 @@
   height: 50px;
   font-size: large;
   float: right;
-  border-radius: 40px;
-  color: black;
+  border-radius: 10px;
+  color: black; 
+}
+.hey a{
   text-decoration: none;
-  
+  color: black;
 }
 .one li {
   float: right;
@@ -41,30 +43,34 @@
 
 .two img {
   width: 30%;
-  text-align: right;
   margin-left: -1000px;
   border-radius: 40px;
 }
 
 .two h1 {
-  font-size: 100px;
-  text-align: right;
-  margin-top: -300px;
-  margin-right:600px;
-  color:cornflowerblue
+  font-size: 40px;
+  margin-top: -400px;
+  margin-left:800px;
+  color:blue;
+  font-weight: bolder;
+  padding-right: 100px;
 }
 
 .two p {
-  font-size: 18px;
-  text-align: right;
+  font-size: x-large;
   margin-right: -3px;
-  margin-top: -63px;
-  padding-left: 535px;
-  padding-top: 40px;
+  margin-top: -130px;
+  padding-left: 500px;
+  padding-top: 160px;
   background-attachment:scroll;
   position: relative;
   direction:ltr;
+  font-weight:lighter;
 
+
+}
+.elie{
+  font-size: xx-large;
 }
 .seven{
   width: 140px;
@@ -73,7 +79,9 @@
   margin-top: -24px;
   margin-right: 80px;
   background-color: chartreuse;
+  border-radius: 10px;
 }
+
 .three{
   width: 500px;
   size: 40px;
@@ -93,21 +101,36 @@
   margin-top: -24px;
   height: 54px;
   background-color: chartreuse;
+  border-radius: 10px;
 }
-article{
-  font-size:large;
-  padding-left:18% ;
-
-
-
+.seth a{
+  text-decoration: none;
+  color: black;
+  font-size: larger;
 }
-aside{
-  font-size: large;
-  padding-left: 21%;
-  
-  }
-  section{
-    font-size: larger;
-    padding-left: 22%;
+.seven a{
+  text-decoration: none;
+  color:black;
+  font-size: larger;
+}
+  .mbappe{
+    background-color:beige;
+    font-size: xx-large;
     
   }
+  .mbappe p { 
+  text-align: center;
+  display: flex;
+  margin-left: 1020px;
+  margin-bottom:-400px;
+  font-weight: lighter;
+  }
+  article{
+    font-size: xx-large;
+    float: center;
+    margin-right: 90px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: blue;
+    font-weight: bolder;
+  }
+
