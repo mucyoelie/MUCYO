@@ -42,32 +42,45 @@
 }
 
 .two img {
-  width: 30%;
-  margin-left: -1000px;
-  border-radius: 40px;
+  width: 40%;
+  margin-left: -400px;
+  border-radius: 400px;
+  padding-top: -200px;
+
+  
+  
+}
+.two button{
+  width: 25%;
+  height: 50px;
+  border-radius: 5px;
+  background-color: blue;
+  margin-bottom: 30px;
+  font-size: large;
+}
+.two a{
+  text-decoration: none;
+  color: black;
 }
 
 .two h1 {
-  font-size: 40px;
-  margin-top: -400px;
-  margin-left:800px;
   color:blue;
+  margin-top: -320px;
+  margin-left: 640px;
+  padding-right: 80px;
   font-weight: bolder;
-  padding-right: 100px;
+  font-family:Arial, Helvetica, sans-serif;
+  text-align: center;
 }
 
 .two p {
-  font-size: x-large;
-  margin-right: -3px;
-  margin-top: -130px;
-  padding-left: 500px;
-  padding-top: 160px;
+  font-size: large;
   background-attachment:scroll;
   position: relative;
   direction:ltr;
   font-weight:lighter;
-
-
+  text-align: left;
+  margin-left: 650px;
 }
 .elie{
   font-size: xx-large;
@@ -116,6 +129,7 @@
   .mbappe{
     background-color:beige;
     font-size: xx-large;
+    font-weight: bolder;
     
   }
   .mbappe p { 
@@ -133,4 +147,57 @@
     color: blue;
     font-weight: bolder;
   }
+  aside{
+    margin-right: -50px;
+    text-align: left;
+    position: relative;
+  }
+ 
+.container h1{
+  text-shadow: 20px 20px 50 #444;
+}
+.hhh1{
+  margin-top: 60px;
+  text-align: right;
+  margin-right: 500px;
+
+}
+.hhh1 p{
+  font-size: x-large;
+}
+.hhh2{
+  margin-top: 100px;
+  margin-right: 1300px;
+  color:black;
+  padding-bottom: 900px;
+}
+.hhh2 img{
+  margin-top: -30%;
+}
+.hhh2 p{
+  font-size: x-large;
+  color: black;
+
+}
+.hhh3{
+margin-top: -106%;
+margin-right: 35%;
+padding-bottom: 400px;
+}
+.hhh3 img{
+  margin-top: 40%;
+  margin-left: 10%;
+}
+.hhh5 img{
+  margin-top: -150%;
+}
+.you{
+  width: 80%;
+  height: 60%;
+  background-color:azure;
+  margin-right: 200px;
+} 
+.seen{
+  background-color: aliceblue;
+}
 
