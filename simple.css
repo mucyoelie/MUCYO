@@ -127,17 +127,24 @@
   font-size: larger;
 }
   .mbappe{
-    background-color:beige;
-    font-size: xx-large;
-    font-weight: bolder;
+    background-color:azure;
+    width: 100%;
+    height: 80%;
     
+ 
   }
-  .mbappe p { 
-  text-align: center;
+  .seen p{ 
+  text-align: left;
   display: flex;
-  margin-left: 1020px;
-  margin-bottom:-400px;
+  margin-left: 780px;
+  margin-top: 40px;
   font-weight: lighter;
+  font-size: large;
+  position: relative;
+  padding-left: 40px;
+  }
+  .mbappe h1{
+    color:blue;
   }
   article{
     font-size: xx-large;
@@ -152,52 +159,65 @@
     text-align: left;
     position: relative;
   }
+  .container{
+    background-color: aliceblue;
+  }
  
 .container h1{
   text-shadow: 20px 20px 50 #444;
 }
-.hhh1{
-  margin-top: 60px;
-  text-align: right;
-  margin-right: 500px;
-
-}
-.hhh1 p{
-  font-size: x-large;
-}
-.hhh2{
-  margin-top: 100px;
-  margin-right: 1300px;
-  color:black;
-  padding-bottom: 900px;
-}
-.hhh2 img{
-  margin-top: -30%;
-}
-.hhh2 p{
-  font-size: x-large;
-  color: black;
-
-}
-.hhh3{
-margin-top: -106%;
-margin-right: 35%;
-padding-bottom: 400px;
-}
-.hhh3 img{
-  margin-top: 40%;
-  margin-left: 10%;
-}
-.hhh5 img{
-  margin-top: -150%;
+.machu{
+  background-color:azure;
+  width: 95%;
 }
 .you{
   width: 80%;
   height: 60%;
-  background-color:azure;
+  background-color:aliceblue;
   margin-right: 200px;
+  margin-top: 10px;
 } 
 .seen{
   background-color: aliceblue;
-}
+width: 95%;
+height: 95%;
+padding-bottom: 150px;
 
+}
+.seen h1{
+  margin-right: 400px;
+  font-size: xx-large;
+  font-weight: bolder;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.seen h2{
+margin-left: 450px;
+margin-top: -400px;
+font-size: xx-large;
+color: blue;
+font-weight: bolder;
+}
+.seen button{
+  width: 180px;
+  height: 50px;
+  margin-left: 400px;
+  border-radius: 5px;
+  background-color: blue;
+  margin-top: 20px;
+}
+.seen a{
+  text-decoration: none;
+  font-size: large;
+  color: black;
+}
+.seen img{
+  margin-right: 400px;
+  padding-bottom: 100px;
+}
+#myImage{
+  width: 500px;
+  height: 500px;
+  margin-right: 600px;
+  border-radius: 300px;
+
+}
