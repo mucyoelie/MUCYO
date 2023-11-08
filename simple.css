@@ -1,21 +1,49 @@
+.simba{
+  font-size: xx-large;
+  color: darkolivegreen;
+  float: center;
+  margin-left: 800px;
+}
 .one {
   list-style-type: none ;
   overflow: hidden;
-  background-color:aliceblue;
+  background-color:black;
   margin-right: 0px;
   margin-left: 0px;
   margin-top: 0px;
   margin-bottom: 0px;
-
+  height: 80px;
+}
+nav{
+  text-align: left;
+  margin-left: -10px;
+  margin-right: -10px;
+  margin-top: -10px;
+}
+.one button{
+  margin-top: 5px;
+  margin-right: 20px;
+  width: 150px;
+  height: 60px;
+  transition: property 0.3s, background-color 0.3s;
+}
+.one h1{
+  float: left;
+  margin-top: -20px;
+}
+.one button:hover{
+  background-color: chocolate;
+}
+.one a:hover{
+  color:blue;
 }
 .hey{
   background-color: blue;
-  width: 140px;
-  height: 50px;
   font-size: large;
   float: right;
-  border-radius: 10px;
+  border-radius: 5px;
   color: black; 
+  margin-bottom: 10px;
 }
 .hey a{
   text-decoration: none;
@@ -23,6 +51,7 @@
 }
 .one li {
   float: right;
+  margin-top: 6px;
 }
 
 .one li a {
@@ -35,7 +64,9 @@
 }
 
 .one li a:hover {
-  background-color:chartreuse;
+  background-color:whitesmoke;
+  width: 130px;
+  height: 30px;
 }
 .two {
   text-align: center;
@@ -58,9 +89,15 @@
   margin-bottom: 30px;
   font-size: large;
 }
+.two button:hover{
+  background-color: darkorange;
+}
 .two a{
   text-decoration: none;
   color: black;
+}
+.two a:hover{
+  color: blue;
 }
 
 .two h1 {
@@ -71,10 +108,11 @@
   font-weight: bolder;
   font-family:Arial, Helvetica, sans-serif;
   text-align: center;
+  font-size: xx-large;
 }
 
 .two p {
-  font-size: large;
+  font-size: medium;
   background-attachment:scroll;
   position: relative;
   direction:ltr;
@@ -136,12 +174,12 @@
  
   }
   .seen p{ 
+    font-size: medium;
   text-align: left;
   display: flex;
   margin-left: 780px;
   margin-top: 5px;
   font-weight: lighter;
-  font-size: large;
   position: relative;
   padding-right: 20px;
   text-align: justify;
@@ -156,8 +194,9 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: blue;
     font-weight: bolder;
-    margin-bottom: -400px;
+    margin-bottom: -100px;
     padding-left: -600px;
+    padding-top: 20px;
   }
   aside{
     margin-right: -50px;
@@ -166,23 +205,42 @@
   }
   .container{
     background-color: aliceblue;
+    width: 100%;
   }
  
 .container h1{
   text-shadow: 20px 20px 50 #444;
+  margin-bottom: 10px;
+  padding-top: 20px;
 }
 .machu{
   background-color:azure;
   width: 95%;
-  padding-bottom: 80px;
+  margin-bottom: 20px;
+  padding-bottom: 40px;
 }
 .container p{
   text-align: left;
-  margin-top: 540px;
+  margin-top: 200px;
   margin-left: 680px;
   font-size: larger;
   padding-right: 60px;
   text-align: justify;
+}
+.machu button{
+  margin-left: 95px;
+  width: 160px;
+  height: 60px;
+  background-color: blue;
+  border-radius: 5px;
+}
+.gross{
+  margin-right: 180px;
+}
+.machu a{
+  text-decoration: none;
+  color: ghostwhite;
+  font-size: larger;
 }
 .you{
   width: 80%;
@@ -212,12 +270,18 @@ color: blue;
 font-weight: bolder;
 }
 .seen button{
-  width: 180px;
-  height: 50px;
-  margin-left: 320px;
+  width: 160px;
+  height: 60px;
+  margin-left: 280px;
   border-radius: 5px;
   background-color: blue;
   margin-top: 5px;
+}
+.seen button:hover{
+  background-color:darkorange;
+}
+.seen a:hover{
+  color:blue;
 }
 .seen a{
   text-decoration: none;
@@ -225,8 +289,7 @@ font-weight: bolder;
   color: black;
 }
 .seen img{
-  margin-right: 500px;
-  padding-bottom: 60px;
+  margin-right: 500px
 }
 #myImage{
   width: 500px;
@@ -239,11 +302,11 @@ font-weight: bolder;
   width: 95%;
   background-color:aliceblue;
   margin-bottom: -80px;
-  padding-bottom: 400px;
+  padding-bottom: 280px;
 }
 .hello img{
-  width: 600px;
-  height: 550px;
+  width: 580px;
+  height: 650px;
   margin-left: 700px;
   margin-top: 20px;
   border-radius: 10px;
@@ -259,6 +322,250 @@ font-weight: bolder;
   padding-left: 108px;
   font-size: larger;
   text-align: justify;
+}
+.hello button{
+  background-color: blue;
+  width: 160px;
+  height: 60px;
+  margin-right: 1050px;
+  border-radius: 5px;
+  font-size: larger;
+}
+.hello a{
+  text-decoration: none;
+  color: floralwhite;
+}
+.really{
+  background-color: azure;
+  width: 95%;
+  padding-top: 200px;
+}
+.really{
+  margin-bottom: 40px;
+  padding-bottom: 20px;
+  backdrop-filter: blur(50px);
+}
+.really img{
+  width: 500px;
+  height: 500px;
+}
+@media (min-width: 475px){
+  .one {
+    list-style-type: none ;
+    overflow: hidden;
+    background-color:black;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .seven{
+    width: 140px;
+    height: 54px;
+    float: right;
+    margin-top: -24px;
+    margin-right: 80px;
+    background-color: chartreuse;
+    border-radius: 10px;
+  }
+  
+.three{
+  width: 500px;
+  size: 40px;
+  float: left;
+  margin-top: -60px;
+}
+.three button{
+  width: 200px;
+  height: 50px;
+  background-color: blue;
+  border-radius: 40px;
+}
+}
+@media (min-width: 640px) {
+  .one {
+    list-style-type: none ;
+    overflow: hidden;
+    background-color:black;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  } 
+  .seven{
+    width: 140px;
+    height: 54px;
+    float: right;
+    margin-top: -24px;
+    margin-right: 80px;
+    background-color: chartreuse;
+    border-radius: 10px;
+  }
+  .three{
+    width: 500px;
+    size: 40px;
+    float: left;
+    margin-top: -60px;
+  }
+  .three button{
+    width: 200px;
+    height: 50px;
+    background-color: blue;
+    border-radius: 40px;
+  } 
+
+}
+@media (min-width: 768px) {
+  .one {
+    list-style-type: none ;
+    overflow: hidden;
+    background-color:black;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .seven{
+    width: 140px;
+    height: 54px;
+    float: right;
+    margin-top: -24px;
+    margin-right: 80px;
+    background-color: chartreuse;
+    border-radius: 10px;
+  }
+  .three{
+    width: 500px;
+    size: 40px;
+    float: left;
+    margin-top: -60px;
+  }
+  .three button{
+    width: 200px;
+    height: 50px;
+    background-color: blue;
+    border-radius: 40px;
+  } 
 
 
 }
+@media (min-width: 1024px) {
+  .one {
+    list-style-type: none ;
+    overflow: hidden;
+    background-color:black;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .seven{
+    width: 140px;
+    height: 54px;
+    float: right;
+    margin-top: -24px;
+    margin-right: 80px;
+    background-color: chartreuse;
+    border-radius: 10px;
+  }
+  .three{
+    width: 500px;
+    size: 40px;
+    float: left;
+    margin-top: -60px;
+  }
+  .three button{
+    width: 200px;
+    height: 50px;
+    background-color: blue;
+    border-radius: 40px;
+  } 
+
+
+}
+@media (min-width: 1280px) {
+  .one {
+    list-style-type: none ;
+    overflow: hidden;
+    background-color:black;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .seven{
+    width: 140px;
+    height: 54px;
+    float: right;
+    margin-top: -24px;
+    margin-right: 80px;
+    background-color: chartreuse;
+    border-radius: 10px;
+  }
+  .three{
+    width: 500px;
+    size: 40px;
+    float: left;
+    margin-top: -60px;
+  }
+  .three button{
+    width: 200px;
+    height: 50px;
+    background-color: blue;
+    border-radius: 40px;
+  } 
+
+
+}
+@media (min-width: 1536px) {
+  .one {
+    list-style-type: none ;
+    overflow: hidden;
+    background-color:black;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .seven{
+    width: 140px;
+    height: 54px;
+    float: right;
+    margin-top: -24px;
+    margin-right: 80px;
+    background-color: rgb(0, 208, 255);
+    border-radius: 10px;
+  }
+  .three{
+    width: 500px;
+    size: 40px;
+    float: left;
+    margin-top: -60px;
+  }
+  .three button{
+    width: 200px;
+    height: 50px;
+    background-color: blue;
+    border-radius: 40px;
+  } 
+
+
+}
+  @keyframes simba {
+    from{
+      transform: translateX(-300px);
+    }
+    to{
+      transform: translateX(0px);
+    }
+  }
+  .simba{
+    animation: simba;
+    animation-duration: 5s;
+    animation-timing-function:ease-in-out;
+    animation-delay: 5s;
+    animation-fill-mode:forwards;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+
+  }
